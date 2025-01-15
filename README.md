@@ -1,16 +1,9 @@
-<p align="center">
-<img src="frontend/public/listen-more.png" width="35%" />
-<br />
-</p>
-<p align="center">
-<a href="https://docs.listen-rs.com/"><img src="https://img.shields.io/badge/docs-API-blue.svg" /></a> &nbsp;
-<a href="https://github.com/piotrostr/listen"><img src="https://img.shields.io/github/stars/piotrostr/listen?style=social" /></a>
-<a href=""><img src="https://img.shields.io/badge/built_with-Rust-dca282.svg?logo=rust" /></a>
-</p>
+
 
 <p align="center">
-<code>listen</code> is a Solana Swiss-Knife toolkit for algorithmic trading
+<code>DEFAI</code> is a Solana Swiss-Knife toolkit for algorithmic trading
 </p>
+
 
 ## Features
 
@@ -70,18 +63,15 @@ cargo build --release
 ### Transaction Monitoring
 
 ```bash
-cargo run -- listen \
+cargo run -- DAFAI \
   --worker-count [COUNT] \
   --buffer-size [SIZE]
 ```
 
-### Token Swapping
+
 
 ```bash
-cargo run -- swap \
-  --input-mint sol \
-  --output-mint EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v \
-  --amount 10000000
+
 ```
 
 > [!WARNING]
@@ -89,7 +79,7 @@ cargo run -- swap \
 
 ## Metrics and Monitoring
 
-Listen includes built-in metrics exposed at `localhost:3030/metrics`. To visualize:
+DEFAI includes built-in metrics exposed at `localhost:3030/metrics`. To visualize:
 
 1. Start Prometheus:
 

@@ -1,10 +1,10 @@
 [Unit]
-Description=Buyer Service
+Description=Listener Service
 After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/listen buyer-service
+ExecStart=/usr/local/bin/listen listener-service
 Restart=on-failure
 
 [Install]
